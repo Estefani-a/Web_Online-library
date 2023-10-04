@@ -28,15 +28,34 @@ const librosDisponibles = [{
 },
 
 {
-    urlPortada: "https://jackmoreno.files.wordpress.com/2014/04/cantar-del-mc3ado-cid.jpg",
-    titulo: 'Cantar de Mio Cid'
+    urlPortada: "images/Un mundo feliz-Portada.jpg",
+    titulo: 'Un Mundo Feliz'
 },
 
 {
-    urlPortada: "https://www.infobae.com/new-resizer/GoPis510MTqh8tddBq2AfCOIJR4=/992x1488/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2016/07/20201747/mejores-libros-Guerra-y-Paz-sf.jpg",
-    titulo: 'Guerra y Paz'
-}
+    urlPortada: "images/La piel de zapa-portada.jpg",
+    titulo: 'La Piel de Zapa'
+},
 
+{
+    urlPortada: "images/Clean code-Portada.jpg",
+    titulo: 'Clean Code'
+},
+
+{
+    urlPortada: "images/The pragmatic programmer-portada.jpg",
+    titulo: 'The pragmatic programmer'
+},
+
+{
+    urlPortada: "images/El alquimista-portada.jpg",
+    titulo: 'El Alquimista'
+},
+
+{
+    urlPortada: "images/El retrato de dorian gray-portada.jpg",
+    titulo: 'El Retrato de Dorian Gray'
+}
 ]
 
 const librosReservados = []
@@ -91,18 +110,9 @@ cargarLibrosDisponibles(librosDisponibles);
 /* Uso jquary para cambiar el color al titulo de la página */
 $(function () {
     $('h1').css('color', 'white');
-    $('.funcionamiento').css('color', 'blue');
+    $('.funcionamiento').css('color', 'orange');
 })
 
-/* function crear1() {
-    document.getElementById("libroA").innerHTML = "libro 1"
-}
-function crear2() {
-    document.getElementById("libroB").innerHTML = "libro 2"
-}
-function crear3() {
-    document.getElementById("libroC").innerHTML = "libro 3"
-} */
 
 
 
