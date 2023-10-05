@@ -34,26 +34,6 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"></a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li> -->
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar libro" aria-label="Search">
@@ -68,20 +48,91 @@
             <br>
             <h2>¡Hola lector!</h2>
             <p>Si estas buscando un libro estas en el lugar correcto. En la siguiente sección podras ver una lista de
-                nuestros libros disponibles y resevados.</p>
-            <p class="funcionamiento">Podras reservar un libro con sólo precionar sobre el botón <b>"Reservar"</b> y en
-                el caso que no lo quieras podras devolverlo precionando el boton <b>"Devolver"</b>.</p>
+                nuestros libros disponibles.</p>
+            <!--<p class="funcionamiento">Podras reservar un libro con sólo precionar sobre el botón <b>"Reservar"</b> y en
+                el caso que no lo quieras podras devolverlo precionando el boton <b>"Devolver"</b>.</p>-->
         </div>
         <br>
         <h2>Libros disponibles</h2>
         <br>
         <ul id="listaLibrosDisponibles"> 
+            <li>
+                <a href="https://tienda.planetadelibros.com.ar/products/product">
+                    <img src="images/Don_quijote-Portada.jpg" alt="Don Quijote">
+                    <p>Don Quijote</p>
+                </a>            
+            </li>
+            <li>
+                <a href="https://cuspide.com/producto/la-iliada-4/">
+                    <img src="images/la iliada-portada.jpg" alt="La Iliada">
+                </a>
+                <p>La Iliada</p>
+            </li>
+            <li>
+                <a href="https://tienda.planetadelibros.com.ar/products/product">
+                    <img src="images/Hamblet-portada.jpg" alt="Hamblet">
+                </a>
+                <p>Hamblet</p>
+            </li>
+            <li>
+                <a href="https://cuspide.com/producto/la-divina-comedia-2/">
+                    <img src="images/La divina comedia-portada.webp" alt="La Divina Comedia">
+                </a>
+                <p>La Divina Comedia</p>
+            </li>
+            <li>
+                <a href="https://cuspide.com/producto/el-aleph/">
+                    <img src= "images/El aleph-portada.webp" alt="El Aleph">
+                </a>
+                <p>El Aleph</p>
+            </li>
+            <li>
+                <a href="https://tienda.planetadelibros.com.ar/search?q=el%20principito">
+                    <img src= "images/El-principito_portada.webp" alt="El Principito">
+                </a>
+                <p>El Principito</p>
+            </li>
+            <li>
+                <a href="https://www.buscalibre.com.ar/libro-un-mundo-feliz/9789871138517/p/1062760#">
+                    <img src= "images/Un mundo feliz-Portada.jpg" alt="Un Mundo Feliz">
+                </a>
+                <p>Un Mundo Feliz</p>
+            </li>
+            <li>
+                <a href="https://cuspide.com/producto/la-piel-de-zapa-3/">
+                    <img src= "images/La piel de zapa-portada.jpg" alt="La Piel de Zapa">
+                </a>
+                <p>La Piel de Zapa</p>
+            </li>
+            <li>
+                <a href="https://acortar.link/cleancode">
+                    <img src= "images/Clean code-Portada.jpg" alt="Clean Code">
+                </a>
+                <p>Clean Code</p>
+            </li>
+            <li>
+                <a href="https://www.amazon.com/El-programador-pragm%C3%A1tico-Edici%C3%B3n-especial/dp/8441545871?language=es_US&currency=USD">
+                    <img src= "images/The pragmatic programmer-portada.jpg" alt="The pragmatic programmer">
+                </a>
+                <p>The pragmatic programmer</p>
+            </li>
+            <li>
+                <a href="https://tienda.planetadelibros.com.ar/products/el-alquimista-1">
+                    <img src= "images/El alquimista-portada.jpg" alt="El Alquimista">
+                </a>
+                <p>El Alquimista</p>
+            </li>
+            <li>
+                <a href="https://cuspide.com/producto/el-retrato-de-dorian-gray-12/">
+                    <img src= "images/El retrato de dorian gray-portada.jpg" alt="El Retrato de Dorian Gray">
+                </a>
+                <p>El Retrato de Dorian Gray</p>
+            </li>
         </ul>
         <hr>
-        <h2>Libros reservados</h2>
+        <h2>Como funciona nuestro servicio</h2>
+        <p>Ponemos a dispocision libros populares y presionando sobre cada una de las imagenes te dirigimos al sitio donde puedes encontrarlos disponibles</p>
         <br>
-        <ul id="listaLibrosReservados">
-        </ul>
     </main>
     <footer>
         <div> ©Copyright 2023 ES - Todos los Derechos Reservados</div>
@@ -92,7 +143,6 @@
     <!--  importamos jquery al proyecto -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
     </script>
-    <script src="./index.js"></script>
 </body>
 
 </html>
