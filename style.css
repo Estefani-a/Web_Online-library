@@ -40,10 +40,10 @@ body {
 h1 {
     text-align: center;
     align-items: center;
-    font-family: 'Russo One', sans-serif;
     /* fuente de google */
-    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
     /*  tamaño de la letra */
+    font-size: 30px;
     color: white;
 
 }
@@ -80,11 +80,20 @@ body {
 
 footer {
     background-color: #b9a191;
-    height: 50px;
+    height: 60px;
     color: rgb(255, 255, 253);
     text-align: center;
     /*margin-top: auto;*/
-    line-height: 50px;
+    line-height: 60px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    float: left; /*Pone los iconos a la izquierda*/
+    margin-right: 5px; /*Espacio entre iconos*/
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 #listaLibrosDisponibles {
