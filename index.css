@@ -18,6 +18,10 @@ body {
     min-height: 100%;
 }
 
+.bg-custom {
+    background-color: #b9a191;
+}
+
 #boton {
     color: #0099CC;
     background: transparent;
@@ -75,16 +79,15 @@ body {
 }
 
 footer {
-    background-color: #212529;
+    background-color: #b9a191;
     height: 50px;
     color: rgb(255, 255, 253);
-    font-weight: bold;
     text-align: center;
-    margin-top: auto;
+    /*margin-top: auto;*/
+    line-height: 50px;
 }
 
-#listaLibrosDisponibles,
-#listaLibrosReservados {
+#listaLibrosDisponibles {
     /* display: flex;
     list-style: none; */
     list-style: none;
@@ -94,15 +97,13 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr));
 }
 
-#listaLibrosDisponibles img,
-#listaLibrosReservados img {
+#listaLibrosDisponibles img {
     width: 100%;
     height: 80%;
 
 }
 
-#listaLibrosDisponibles li,
-#listaLibrosReservados li {
+#listaLibrosDisponibles li {
     width: 150px;
     text-align: center;
     margin: 0 1rem;
