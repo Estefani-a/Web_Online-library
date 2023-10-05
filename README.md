@@ -1,2 +1,2 @@
 # Web_Online-library
-Pagina web para venta de libros
+Pagina web basica, diseñada para encontrar libros populares y consultar su precio en un sitio de ventas online.
