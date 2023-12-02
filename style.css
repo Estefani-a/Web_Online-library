@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%; /*Dar ancho al header*/
+    /*position: fixed;*/ /* Dejar fijo el header*/
+}
+
+#menu-toggle {
+    display: none;
+}
+
+/* Muestra el menú cuando el checkbox está marcado */
+#menu-toggle:checked + .navbar-toggler + .navbar-collapse {
+    display: block;
+}
+
+body {
+    background-color: rgb(86, 88, 91);
+    /* esto lo hacemos para que el footer siempre quede abajo */
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.bg-custom {
+    background-color:#fa5f6b;
+}
+
+#boton {
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+}
+
+#boton:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+/* título */
+
+h1 {
+    text-align: center;
+    align-items: center;
+    /* fuente de google */
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: white;
+
+}
+
+#title {
+    font-size: 12px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+h2,
+p {
+    left: 80px;
+    top: 10px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.lista-libros {
+    font-size: 13px;
+}
+
+.img-nosotros {
+    max-width: 100%; /* Para que la imagen no supere el ancho del contenedor */
+    height: auto;
+    display: block;
+}
+.img-servicios {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.linea-custom {
+    height: 1px;
+    width: 50%;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.contactanos{
+    max-width: 100%;
+    width: 500px; /*revisar*/
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #fa5f6b;
+    color: rgb(255, 255, 253);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: auto;
+}
+
+.site-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-info img {
+    width: 30px; /* Ajusta el ancho del logo según corresponda */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.site-info p {
+    color: white;
+}
+
+.footer {
+    color: white;
+    margin: 0;
+}
+
+#listaLibrosDisponibles {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem; /*19*/
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr));
+}
+
+#listaLibrosDisponibles img {
+    width: 100%;
+    height: 80%;
+}
+
+#listaLibrosDisponibles li {
+    width: 150px;
+    text-align: center;
+    margin: 0 1rem;
+    justify-content: space-between; /*Alinea el precio y el botón al final*/
+    padding-bottom: 1rem;
+}
+
+#listaLibrosDisponibles p {
+    margin-bottom: 0.5rem; /*Espaciado entre el título y el precio*/
+}
+
+.precio {
+    font-weight: bold;
+    color: #333;
+    font-size: 0.8rem;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #0056b3;
+  }  
+
+/* Mobile First */
+@media only screen and
+(min-width: 768px) {
+/* Desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+/* Mobile phones: */
+[class*="col-"] {
+width: 100%;
+}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
