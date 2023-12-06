@@ -1,14 +1,18 @@
-# Web_Online-library
+<h1 align="center"> <strong>Web_Online-library</strong> </h1>
 
-Website designed to find popular books and check their price on an online sales site.
+### About
 
-This page was designed with Bootstrap 5 and CSS. JavaScript was used to create the shopping cart and the book search function within the site.
+<p>The main objective of the website is to easily and efficiently buy and search for popular books online.</p>
 
-## Technologies
+<hr/>
+
+### Technologies
+
+<p>This page was designed using JavaScript, HTML, CSS and Bootstrap. JavaScript was used to create the shopping cart and book search function within the site.</p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" /> &nbsp; &nbsp;
-   <img src="https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" /> &nbsp; &nbsp;
-   <img src="https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge" /> &nbsp; &nbsp;
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge" /> &nbsp; &nbsp;
+   <img src="https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" /> &nbsp;
+   <img src="https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" /> &nbsp;
+   <img src="https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge" /> &nbsp;
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge" /> &nbsp;
 </p>
